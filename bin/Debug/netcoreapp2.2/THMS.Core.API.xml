@@ -1,0 +1,2150 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>THMS.Core.API</name>
+    </assembly>
+    <members>
+        <member name="M:THMS.Core.API.Controllers.Common.StationMeaageController.SelStationBranch">
+            <summary>
+            机组下拉框
+            </summary>
+            <returns></returns>
+             
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Common.StationMeaageController.SelVpnuser(System.String)">
+            <summary>
+            快速搜索
+            </summary>
+            <param name="value">简拼</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Energy.EnergyMeterDataController.ListmeterDataList(ApiModel.SearchDto)">
+            <summary>
+            查询耗热量曲线，柱状图，表格数据。
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Energy.EnergyMeterDataController.YtdaymeterList(ApiModel.SearchDto)">
+            <summary>
+            两日能耗对比，同比，环比柱状图
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Energy.EnergyMeterDataController.SumEnergyList(ApiModel.SearchDto)">
+            <summary>
+            今年、去年总能耗数据及增长值
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Energy.EnergyMeterDataController.PlanEnergyList(ApiModel.SearchDto)">
+            <summary>
+            计划指标能耗数据展示
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Energy.EnergyMeterDataController.AddMeterTargetConfig(ApiModel.MeterTargetConfig)">
+            <summary>
+            添加能耗指标配置表
+            </summary>
+            <param name="meterTargetConfig"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Energy.EnergyMeterDataController.DelMeterTargetConfig(System.Int32)">
+            <summary>
+            删除能耗指标配置表
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Energy.EnergyMeterDataController.UpdMeterTargetConfig(ApiModel.MeterTargetConfig)">
+            <summary>
+            修改能耗指标配置表
+            </summary>
+            <param name="meterTargetConfig"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Energy.EnergyMeterDataController.AddMeterTargetConfig">
+            <summary>
+            查询能耗指标配置表
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="T:THMS.Core.API.Controllers.Forecast.ForecastBasicController">
+            <summary>
+            换热站负荷预测基础数据控制器
+            </summary>
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastBasicController.SelStationForecastBasic(System.Int32,System.Int32)">
+            <summary>
+            换热站负荷预测基础数据表查询信息
+            </summary>
+            <param name="rows">分页条数</param>
+            <param name="page">当前页数</param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastBasicController.AddStationForecastBasic(ApiModel.StationForecastBasic)">
+            <summary>
+            换热站负荷预测基础数据表新增信息
+            </summary>
+            <param name="stationForecastBasic">StationForecastBasic实体类</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastBasicController.DelStationForecastBasic(System.Int32)">
+            <summary>
+            换热站负荷预测基础数据表删除
+            </summary>
+            <param name="id">自增Id</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastBasicController.UpdStationForecastBasic(ApiModel.StationForecastBasic)">
+            <summary>
+            换热站负荷预测基础数据表更新修改信息
+            </summary>
+            <param name="stationForecastBasic">StationForecastBasic实体类</param>
+            <returns></returns>
+            
+        </member>
+        <member name="T:THMS.Core.API.Controllers.Forecast.ForecastDayController">
+            <summary>
+            换热站负荷预测天数据控制器
+            </summary>
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastDayController.SelStationForecastRealDay(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询实时信息天表信息
+            </summary>
+            <param name="vpnuserid">站点ID</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="heatType">采暖类型</param>
+            <param name="rows">分页条数</param>
+            <param name="page">当前页数</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastDayController.SelStationForecastHistoryHour(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询历史信息天表信息
+            </summary>
+            <param name="vpnuserid">站点ID</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="heatType">采暖类型</param>
+            <param name="rows">分页条数</param>
+            <param name="page">当前页数</param>
+            <returns></returns>
+            
+        </member>
+        <member name="T:THMS.Core.API.Controllers.Forecast.ForecastHourController">
+            <summary>
+            换热站负荷预测小时数据控制器
+            </summary>
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastHourController.SelStationForecastRealHour(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询实时信息小时表信息
+            </summary>
+            <param name="vpnuserid">站点ID</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="heatType">采暖类型</param>
+            <param name="rows">分页条数</param>
+            <param name="page">当前页数</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastHourController.SelStationForecastHistoryHour(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询历史信息小时表信息
+            </summary>
+            <param name="vpnuserid">站点ID</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="heatType">采暖类型</param>
+            <param name="rows">分页条数</param>
+            <param name="page">当前页数</param>
+            <returns></returns>
+            
+        </member>
+        <member name="T:THMS.Core.API.Controllers.Forecast.ForecastInputController">
+            <summary>
+            换热站负荷预测基础数据输入控制器
+            </summary>
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastInputController.SelStationForecastInput(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询换热站负荷预测输入表
+            </summary>
+            <param name="vpnuserid">站点ID</param>
+            <param name="startTime">开始时间</param>
+            <param name="endTime">结束时间</param>
+            <param name="heatType">采暖方式</param>
+            <param name="rows">分页条数</param>
+            <param name="page">当前页数</param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastInputController.SelStationForecastMessge(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询各个换热站对应机组采暖方式信息
+            </summary>
+            <param name="vpnuserid">站点ID</param>
+            <param name="heatType">采暖方式</param>
+            <param name="StationBranchArrayNumber">机组号</param>
+            <param name="rows">分页条数</param>
+            <param name="page">当前页数</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastInputController.AddStationForecastInput(ApiModel.StationForecastInput)">
+            <summary>
+            添加换热站负荷预测输入表
+            </summary>
+            <param name="stationForecastInput">StationForecastInput 实体类</param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastInputController.AddToArrayStationForecastInput(System.Collections.Generic.List{ApiModel.StationForecastInput})">
+            <summary>
+            批量添加换热站负荷预测输入表
+            </summary>
+            <param name="stationForecastInput">集合List </param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastInputController.UpdStationForecastInput(ApiModel.StationForecastInput)">
+            <summary>
+            换热站负荷预测输入表更新修改信息
+            </summary>
+            <param name="stationForecastInput"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastInputController.UpdStationBransh(ApiModel.StationBranch)">
+            <summary>
+            修改机组表中采暖方式以及散热情况
+            </summary>
+            <param name="staitonbranch"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastInputController.UpdToArryStationBransh(System.Collections.Generic.List{ApiModel.StationBranch})">
+            <summary>
+            批量修改机组表中采暖方式以及散热情况
+            </summary>
+            <param name="staitonbranch"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="T:THMS.Core.API.Controllers.Forecast.ForecastQuartzController">
+            <summary>
+            换热站负荷预测定时程序启停控制器
+            </summary>
+        </member>
+        <member name="M:THMS.Core.API.Controllers.Forecast.ForecastQuartzController.QuartzTest(System.Int32,System.String)">
+            <summary>
+            定时任务启停（请勿对该方法进行操作！）
+            </summary>
+            <param name="workType">1：启动任务 2：暂停任务 3：恢复任务 4:删除任务</param>
+            <param name="SetTime">设置任务定时时间</param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Common.QuartzUtilService.Add(System.Type,Quartz.JobKey,Quartz.ITrigger)">
+            <summary>
+            添加任务
+            </summary>
+            <param name="type">类</param>
+            <param name="jobKey">键</param>
+            <param name="trigger">触发器</param>
+        </member>
+        <member name="M:THMS.Core.API.Service.Common.QuartzUtilService.Resume(Quartz.JobKey)">
+            <summary>
+            恢复任务
+            </summary>
+            <param name="jobKey">键</param>
+        </member>
+        <member name="M:THMS.Core.API.Service.Common.QuartzUtilService.Stop(Quartz.JobKey)">
+            <summary>
+            停止任务
+            </summary>
+            <param name="jobKey">键</param>
+        </member>
+        <member name="M:THMS.Core.API.Service.Common.StationMeaageService.SelStationBranch">
+            <summary>
+            机组下拉框
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Common.StationMeaageService.SelVpnuser(System.String)">
+            <summary>
+            快速搜索
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Energy.MeterDataEnergyService.ListmeterDataList(ApiModel.SearchDto)">
+            <summary>
+            查询耗热量曲线，柱状图，表格数据。
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Energy.MeterDataEnergyService.YtdaymeterList(ApiModel.SearchDto)">
+            <summary>
+            两日能耗对比，同比，环比柱状图
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Energy.MeterDataEnergyService.SumEnergyList(ApiModel.SearchDto)">
+            <summary>
+            今年、去年总能耗数据及增长值
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Energy.MeterTargetConfigService.AddMeterTargetConfig(ApiModel.MeterTargetConfig)">
+            <summary>
+            添加能耗指标配置表
+            </summary>
+            <param name="meterTargetConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Energy.MeterTargetConfigService.DelMeterTargetConfig(System.Int32)">
+            <summary>
+            删除能耗指标配置表
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Energy.MeterTargetConfigService.UpdMeterTargetConfig(ApiModel.MeterTargetConfig)">
+            <summary>
+            修改能耗指标配置表
+            </summary>
+            <param name="meterTargetConfig"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Energy.MeterTargetConfigService.SelMeterTargetConfig">
+            <summary>
+            查询能耗指标配置表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastBasicService.AddStationForecastBasic(ApiModel.StationForecastBasic)">
+            <summary>
+            换热站负荷预测基础数据表新增信息
+            </summary>
+            <param name="stationForecastBasic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastBasicService.DelStationForecastBasic(System.Int32)">
+            <summary>
+            换热站负荷预测基础数据表删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastBasicService.UpdStationForecastBasic(ApiModel.StationForecastBasic)">
+            <summary>
+            换热站负荷预测基础数据表更新修改信息
+            </summary>
+            <param name="stationForecastBasic"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastBasicService.SelStationForecastBasic(System.Int32,System.Int32)">
+            <summary>
+            换热站负荷预测基础数据表查询信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastHistoryDayService.SelStationForecastHistoryHour(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询历史信息天表信息
+            </summary>
+            <param name="vpnuserid"></param>
+            <param name="startTime"></param>
+            <param name="endTime"></param>
+            <param name="heatType"></param>
+            <param name="pageSize"></param>
+            <param name="pageIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastHistoryHourService.SelStationForecastHistoryHour(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询历史信息小时表信息
+            </summary>
+            <param name="vpnuserid"></param>
+            <param name="startTime"></param>
+            <param name="endTime"></param>
+            <param name="heatType"></param>
+            <param name="pageSize"></param>
+            <param name="pageIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastInputService.SelStationForecastInput(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询换热站负荷预测输入表
+            </summary>
+            <param name="vpnuserid"></param>
+            <param name="startTime"></param>
+            <param name="endTime"></param>
+            <param name="heatType"></param>
+            <param name="pageSize"></param>
+            <param name="pageIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastInputService.SelStationForecastMessge(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询各个换热站对应机组采暖方式信息
+            </summary>
+            <param name="vpnuserid"></param>
+            <param name="heatType"></param>
+            <param name="StationBranchArrayNumber"></param>
+            <param name="pageSize"></param>
+            <param name="pageIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastInputService.AddStationForecastInput(ApiModel.StationForecastInput)">
+            <summary>
+            添加换热站负荷预测输入表
+            </summary>
+            <param name="stationForecastInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastInputService.AddToArrayStationForecastInput(System.Collections.Generic.List{ApiModel.StationForecastInput})">
+            <summary>
+            批量添加换热站负荷预测输入表
+            </summary>
+            <param name="stationForecastInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastInputService.UpdStationForecastInput(ApiModel.StationForecastInput)">
+            <summary>
+            换热站负荷预测输入表更新修改信息
+            </summary>
+            <param name="stationForecastInput"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastInputService.UpdStationBransh(ApiModel.StationBranch)">
+            <summary>
+            修改机组表中采暖方式以及散热情况
+            </summary>
+            <param name="staitonbranch"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastInputService.UpdToArryStationBransh(System.Collections.Generic.List{ApiModel.StationBranch})">
+            <summary>
+            批量修改机组表中采暖方式以及散热情况
+            </summary>
+            <param name="staitonbranch"></param>
+            <returns></returns>
+        </member>
+        <member name="P:THMS.Core.API.Service.Forecast.StationForecastRealDayService.Configuration">
+            <summary>
+            定时更改天历史表以及天实时展示表
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastRealDayService.SelStationForecastRealHour(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询实时信息天表信息
+            </summary>
+            <param name="vpnuserid"></param>
+            <param name="startTime"></param>
+            <param name="endTime"></param>
+            <param name="heatType"></param>
+            <param name="pageSize"></param>
+            <param name="pageIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="P:THMS.Core.API.Service.Forecast.StationForecastRealHourService.Configuration">
+            <summary>
+            定时更改小时历史表以及小时实时展示表
+            </summary>
+            <returns></returns>
+            
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastRealHourService.RadiatingTube(System.Decimal,System.Decimal,System.Int32)">
+            <summary>
+            得到散热量
+            </summary>
+            <param name="avgTemp">平均水温</param>
+            <param name="IndoorCalculationTemp">室内温度</param>
+            <param name="HeatingType">散热管间距类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.Service.Forecast.StationForecastRealHourService.SelStationForecastRealHour(System.Int32,System.String,System.String,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            查询实时信息小时表信息
+            </summary>
+            <param name="vpnuserid"></param>
+            <param name="startTime"></param>
+            <param name="endTime"></param>
+            <param name="heatType"></param>
+            <param name="pageSize"></param>
+            <param name="pageIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:THMS.Core.API.ExceptionFilter.GlobalExceptionFilter.OnException(Microsoft.AspNetCore.Mvc.Filters.ExceptionContext)">
+            <summary>
+            发生异常时进入
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:THMS.Core.API.Logs.Logger.Info(System.String,System.Exception)">
+            <summary>
+            普通日志
+            </summary>
+            <param name="message"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:THMS.Core.API.Logs.Logger.Warn(System.String,System.Exception)">
+            <summary>
+            告警日志
+            </summary>
+            <param name="message"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:THMS.Core.API.Logs.Logger.Error(System.String,System.Exception)">
+            <summary>
+            错误日志
+            </summary>
+            <param name="message"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="P:ApiModel.HeatCycle.Id">
+            <summary>
+            Id 自增编号
+            </summary>
+            
+        </member>
+        <member name="P:ApiModel.HeatCycle.Name">
+            <summary>
+            供暖期名称  唯一
+            </summary>
+        </member>
+        <member name="P:ApiModel.HeatCycle.StartDate">
+            <summary>
+            供暖期开始日期
+            </summary>
+        </member>
+        <member name="P:ApiModel.HeatCycle.EndDate">
+            <summary>
+            供暖期结束日期
+            </summary>
+        </member>
+        <member name="P:ApiModel.HeatCycle.Description">
+            <summary>
+            供暖期描述
+            </summary>
+        </member>
+        <member name="P:ApiModel.HeatCycle.StationQuantity">
+            <summary>
+            自行维护换热站数量
+            </summary>
+        </member>
+        <member name="P:ApiModel.HeatCycle.IsValid">
+            <summary>
+            供暖期是否有效
+            </summary>
+        </member>
+        <member name="P:ApiModel.Station.VpnUser_id">
+            <summary>
+            VpnUserID
+            </summary>  
+        </member>
+        <member name="P:ApiModel.Station.PowerInfo_id">
+            <summary>
+            所属热源
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.BuildType">
+            <summary>
+            建筑类型
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.PaymentType">
+            <summary>
+            收费方式
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.SavePowerType">
+            <summary>
+            节能方式
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.HomeHeatType">
+            <summary>
+            管路布置方式
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.PipelineSituation">
+            <summary>
+            管道情况
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.PipelineDiameter">
+            <summary>
+            管道管径
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.PipelineDistance">
+            <summary>
+            离热源距离
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.Terrain">
+            <summary>
+            热力站地势
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.ReapairSituation">
+            <summary>
+            维修情况
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.BaseHeat">
+            <summary>
+            基础瞬时热量
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.ImageUrl">
+            <summary>
+            图像路径
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.HouseLineUrl">
+            <summary>
+            户线图路径
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.HeatBuilding">
+            <summary>
+            所供楼名称
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.HeatType">
+            <summary>
+            供热方式(0、汽水站；1、水水站)
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.ManageType">
+            <summary>
+            管理方式
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.HeatIndexType">
+            <summary>
+            供热方式(1、混供；2、地暖；3、暖气片)
+            </summary>        
+        </member>
+        <member name="P:ApiModel.Station.YGNY_ReturnWaterTemperature_id">
+            <summary>
+            回水控制温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.Station.IsHeatPreservation">
+            <summary>
+            保温类型 0：无保温 1：有保温
+            </summary>
+        </member>
+        <member name="P:ApiModel.Station.HeatingType_id">
+            <summary>
+            取暖方式
+            </summary>
+        </member>
+        <member name="T:ApiModel.StationBranch">
+            <summary>
+            StationBranch
+            </summary>    
+        </member>
+        <member name="P:ApiModel.StationBranch.Id">
+            <summary>
+            StationBranchID
+            </summary>  
+            
+        </member>
+        <member name="P:ApiModel.StationBranch.VpnUser_id">
+            <summary>
+            VpnUserID
+            </summary>        
+        </member>
+        <member name="P:ApiModel.StationBranch.StationBranchName">
+            <summary>
+            StationBranchName
+            </summary>        
+        </member>
+        <member name="P:ApiModel.StationBranch.StationBranchArrayNumber">
+            <summary>
+            StationBranchArrayNumber
+            </summary>        
+        </member>
+        <member name="P:ApiModel.StationBranch.StationBranchType">
+            <summary>
+            StationBranchType
+            </summary>        
+        </member>
+        <member name="P:ApiModel.StationBranch.HeatMeterDiameter">
+            <summary>
+            HeatMeterDiameter
+            </summary>        
+        </member>
+        <member name="P:ApiModel.StationBranch.HeatNetDiameter">
+            <summary>
+            HeatNetDiameter
+            </summary>        
+        </member>
+        <member name="P:ApiModel.StationBranch.HeatMeterNumber">
+            <summary>
+            HeatMeterNumber
+            </summary>        
+        </member>
+        <member name="P:ApiModel.StationBranch.HeatMeterLocation">
+            <summary>
+            HeatMeterLocation
+            </summary>        
+        </member>
+        <member name="P:ApiModel.StationBranch.ValveCorrectValue">
+            <summary>
+            机组全网平衡二次供回平均温度修正值
+            </summary>        
+        </member>
+        <member name="P:ApiModel.StationBranch.StationBranchHeatArea">
+            <summary>
+            机组供热面积
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationBranch.PayType">
+            <summary>
+            费用类型 1：生产；2：生活；
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationBranch.HeatingType">
+            <summary>
+            采暖方式 1：地暖；2：挂暖；3混合供暖
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationBranch.RadiatingTubeType">
+            <summary>
+            地板采暖散热管间距类型（1：300mm;2：250mm;3：200mm;4：150mm）
+            </summary>
+        </member>
+        <member name="T:ApiModel.VpnUser">
+            <summary>
+            VpnUser
+            </summary>    
+        </member>
+        <member name="P:ApiModel.VpnUser.Id">
+            <summary>
+            VpnUserID
+            </summary>  
+            
+        </member>
+        <member name="P:ApiModel.VpnUser.PcName">
+            <summary>
+            站点的编号
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.PcIP">
+            <summary>
+            IP地址
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.PcPort">
+            <summary>
+            端口号
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationNumber">
+            <summary>
+            站点在热源上的位置
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationLongitude">
+            <summary>
+            经度
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationLatitude">
+            <summary>
+            纬度
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationComsvIP">
+            <summary>
+            通信服务器的IP地址
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationName">
+            <summary>
+            站名称
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.BuildDate">
+            <summary>
+            建站日期
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.Organization_id">
+            <summary>
+            所属分公司
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationSabb">
+            <summary>
+            简拼
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationAddress">
+            <summary>
+            地址
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.PcLoinCount">
+            <summary>
+            登录计数
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.PcLastLogin">
+            <summary>
+            最后登录时间
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.CommunicationPhone">
+            <summary>
+            数据传输电话号码
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.RtuTransCount">
+            <summary>
+            RTU传输次数
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.RtuTransTime">
+            <summary>
+            RTU传输时间
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.IsPoint">
+            <summary>
+            是否重点站
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.IsLifeWater">
+            <summary>
+            是否生活水
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.IsCombo">
+            <summary>
+            是否组合站
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.IsValid">
+            <summary>
+            是否有效
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationShowValid">
+            <summary>
+            站点是否在前台显示
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationStandard">
+            <summary>
+            站点类型 0、人工站；1、监测站；2、管线监测点；3、监控站；98、热网；99、热源
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationCommunicationType">
+            <summary>
+            通讯方式 ADSL 1;GPRS  2; CDMA 3;  光纤传输 4; 3G路由器 5
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.Carrieroperator">
+            <summary>
+            通讯运营商：移动 1;联通 2;电信 3;广电 4;铁通  5
+            </summary>
+        </member>
+        <member name="P:ApiModel.VpnUser.StationDescription">
+            <summary>
+            站描述
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.AuditMan">
+            <summary>
+            录入人
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.AuditDate">
+            <summary>
+            录入时间
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.AuthorizeMan">
+            <summary>
+            修改人
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.AuthorizeDate">
+            <summary>
+            修改时间
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationHotArea">
+            <summary>
+            自控面积
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationOnNetAllArea">
+            <summary>
+            建筑面积
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationOnNetUseArea">
+            <summary>
+            收费面积
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationHotUseArea">
+            <summary>
+            修正面积
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationDutyMan">
+            <summary>
+            站点的联系人
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationDutyManContact">
+            <summary>
+            站点联系人电话
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StationArrayCount">
+            <summary>
+            站机组总数
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.WebX">
+            <summary>
+            站点在CAD地图上的X坐标
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.WebY">
+            <summary>
+            站点在CAD地图上的Y坐标
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.IPROVIDER">
+            <summary>
+            通信协议的供应商:天时自定义 1;天时平台 2;PVSS  3
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.Ricategory">
+            <summary>
+            协议类型
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.FlowChart">
+            <summary>
+            工艺图对应的图片路径
+            </summary>
+        </member>
+        <member name="P:ApiModel.VpnUser.GunCamera">
+            <summary>
+            枪机地址
+            </summary>
+        </member>
+        <member name="P:ApiModel.VpnUser.PtzCamera">
+            <summary>
+            球机地址
+            </summary>
+        </member>
+        <member name="P:ApiModel.VpnUser.IsJionHeatBalance">
+            <summary>
+            热力站是否加入全网平衡(1:是;0:否)
+            1：二次供回均温控制 2：二次回温控制 3：室外温度控制
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.StaitionValveType">
+            <summary>
+            站点阀门控制类型1：总阀控；2：分阀控
+            </summary>        
+        </member>
+        <member name="P:ApiModel.VpnUser.OrderByData">
+            <summary>
+            排序字段（天津能源用）
+            </summary>
+        </member>
+        <member name="P:ApiModel.VpnUser.StationGroupName">
+            <summary>
+            机组站（站点按机组添加）机组站名称
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.Id">
+            <summary>
+            Id 自增编号
+            </summary>
+            
+        </member>
+        <member name="P:ApiModel.MeterData.Vpnuser_id">
+            <summary>
+            站点ID
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.NarrayNo">
+            <summary>
+            机组编号
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.TotalStart">
+            <summary>
+            表初码
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.TotalEnd">
+            <summary>
+            表末码
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.Total">
+            <summary>
+            表用量
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.UserInfo_id">
+            <summary>
+            执行人
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.CreateDate">
+            <summary>
+            添加日期
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.ApproveDate">
+            <summary>
+            审批日期
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.GeneralCharge">
+            <summary>
+            是否生成费用0:未生成，1：生成
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.Status">
+            <summary>
+            数据状态：0：录入 1：已上报 2：审核中 3：已审核，4：驳回，5：系统生成
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.MeterType">
+            <summary>
+            1:水表2：电表 3：热表：4计量表 101:热源水表 102:热源电表 103:热源热表
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.Area">
+            <summary>
+            面积
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.Target">
+            <summary>
+            水/电/热指标
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterData.MeterDate">
+            <summary>
+            数据所属日期
+            </summary>
+        </member>
+        <member name="T:ApiModel.MeterTargetConfig">
+            <summary>
+            能耗指标配置表
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfig.Id">
+            <summary>
+            Id 自增编号
+            </summary>
+            
+        </member>
+        <member name="P:ApiModel.MeterTargetConfig.HeatCycle_id">
+            <summary>
+            供暖期id
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfig.Heat_ComTarget">
+            <summary>
+            公司总热耗W/m2
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfig.Heat_ComTotal">
+            <summary>
+            公司度日数能耗kJ/(m2•℃•d)
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfig.Heat_EnergyTarget">
+            <summary>
+            民用节能建筑热耗W/m2
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfig.Heat_EnergyTotal">
+            <summary>
+            民用节能建筑度日数能耗kJ/(m2•℃•d)
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfig.Elec_Target">
+            <summary>
+            热力站单位面积耗电量Kwh/万m2.h
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfig.Elec_Total">
+            <summary>
+            热力站单位面积耗电量kwh/m2
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfig.Water__Target">
+            <summary>
+            综合水耗T/万m2.天
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfig.Water_Total">
+            <summary>
+            综合水耗kg/m2
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfigDetail.Id">
+            <summary>
+            Id 自增编号
+            </summary>
+            
+        </member>
+        <member name="P:ApiModel.MeterTargetConfigDetail.VpnUser_id">
+            <summary>
+            站点id
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfigDetail.MeterTarget_id">
+            <summary>
+            能耗指标表id
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfigDetail.Heat_ComTarget">
+            <summary>
+            公司总热耗W/m2
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfigDetail.Heat_ComTotal">
+            <summary>
+            公司度日数能耗kJ/(m2•℃•d)
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfigDetail.Heat_EnergyTarget">
+            <summary>
+            民用节能建筑热耗W/m2
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfigDetail.Heat_EnergyTotal">
+            <summary>
+            民用节能建筑度日数能耗kJ/(m2•℃•d)
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfigDetail.Elec_Target">
+            <summary>
+            热力站单位面积耗电量Kwh/万m2.h
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfigDetail.Elec_Total">
+            <summary>
+            热力站单位面积耗电量kwh/m2
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfigDetail.Water__Target">
+            <summary>
+            综合水耗T/万m2.天
+            </summary>
+        </member>
+        <member name="P:ApiModel.MeterTargetConfigDetail.Water_Total">
+            <summary>
+            综合水耗kg/m2
+            </summary>
+        </member>
+        <member name="T:ApiModel.RealTemperature">
+            <summary>
+            小时天气预报
+            </summary>    
+        </member>
+        <member name="P:ApiModel.RealTemperature.Id">
+            <summary>
+            RealTemperatureID
+            </summary>  
+            
+        </member>
+        <member name="P:ApiModel.RealTemperature.HourAvgTemperature">
+            <summary>
+            小时温度平均值
+            </summary>        
+        </member>
+        <member name="P:ApiModel.RealTemperature.ForecastHourAvgTemperature">
+            <summary>
+            预测温度
+            </summary>        
+        </member>
+        <member name="P:ApiModel.RealTemperature.Wind">
+            <summary>
+            风力(0-12级)
+            </summary>        
+        </member>
+        <member name="P:ApiModel.RealTemperature.WindVelocity">
+            <summary>
+            风速
+            </summary>        
+        </member>
+        <member name="P:ApiModel.RealTemperature.WindDirection">
+            <summary>
+            风向
+            </summary>        
+        </member>
+        <member name="P:ApiModel.RealTemperature.WeatherConditions">
+            <summary>
+            天气状况
+            </summary>        
+        </member>
+        <member name="P:ApiModel.RealTemperature.SnowStatus">
+            <summary>
+            雪况(0-4级)
+            </summary>        
+        </member>
+        <member name="P:ApiModel.RealTemperature.HumiDity">
+            <summary>
+            湿度
+            </summary>        
+        </member>
+        <member name="P:ApiModel.RealTemperature.NcapTime">
+            <summary>
+            采集时间
+            </summary>        
+        </member>
+        <member name="P:ApiModel.RealTemperature.CollectName">
+            <summary>
+            采集点的名称
+            </summary>        
+        </member>
+        <member name="P:ApiModel.RealTemperature.IsForecast">
+            <summary>
+            是否是预报气温
+            </summary>
+        </member>
+        <member name="P:ApiModel.RealTemperature.WeatherCode">
+            <summary>
+            天气编码
+            </summary>
+        </member>
+        <member name="T:ApiModel.StationForecastBasic">
+            <summary>
+            换热站负荷预测基础数据表（StationForecastBasic）
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastBasic.Id">
+            <summary>
+            自增Id
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastBasic.HeatingSeason">
+            <summary>
+            供暖季名称
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastBasic.HeatingDays">
+            <summary>
+            采暖天数
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastBasic.OutdoorTemperature">
+            <summary>
+            采暖季室外设计温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastBasic.OutdoorActualAvgTemp">
+            <summary>
+            采暖季室外平均温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastBasic.IndoorCalculationTemp">
+            <summary>
+            室内设计温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastBasic.RadiatorCoefficient">
+            <summary>
+            散热器系数
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastBasic.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastBasic.CreateUser">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastBasic.IsValid">
+            <summary>
+            是否有效
+            </summary>
+        </member>
+        <member name="T:ApiModel.StationForecastHistoryDay">
+            <summary>
+            换热站负荷预测历史天表（StationForecastHistoryDay）
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.Id">
+            <summary>
+            自增Id
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.VpnUserId">
+            <summary>
+            换热站Id
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.StationName">
+            <summary>
+            换热站名称
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.ForecastDateDay">
+            <summary>
+            预测时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.HeatArea">
+            <summary>
+            面积
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.ForecastHeatTarget">
+            <summary>
+            预测热指标
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.RealHeatTarget">
+            <summary>
+            当前热指标
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.FloorSurfaceAvgTemp">
+            <summary>
+            地板表面平均温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.ForecastOutdoorTemp">
+            <summary>
+            预测室外温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.RealOutdoorTemp">
+            <summary>
+            实际室外温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.ForecastSecFlow">
+            <summary>
+            换热站二次侧循环流量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.ForecastFlow">
+            <summary>
+            预测流量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.LoadRate">
+            <summary>
+            负荷率
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.HourlyHeatDay">
+            <summary>
+            日用热量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.ForecastSecSendTemp">
+            <summary>
+            预测二次供水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.ForecastSecReturnTemp">
+            <summary>
+            预测二次回水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.RealSecSendTemp">
+            <summary>
+            实际二次供水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.RealSecReturnTemp">
+            <summary>
+            实际二次回水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.HeatingType">
+            <summary>
+            采暖方式
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.CreateUser">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.IsValid">
+            <summary>
+            是否有效
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryDay.StationBranchArrayNumber">
+            <summary>
+            机组号
+            </summary>
+        </member>
+        <member name="T:ApiModel.StationForecastHistoryHour">
+            <summary>
+            换热站负荷预测历史小时表（StationForecastHistoryHour）
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.Id">
+            <summary>
+            自增Id
+            </summary>
+            
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.VpnUserId">
+            <summary>
+            换热站Id
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.StationName">
+            <summary>
+            换热站名称
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.ForecastDateHour">
+            <summary>
+            预测时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.HeatArea">
+            <summary>
+            面积
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.ForecastHeatTarget">
+            <summary>
+            预测热指标
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.RealHeatTarget">
+            <summary>
+            当前热指标
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.FloorSurfaceAvgTemp">
+            <summary>
+            地板表面平均温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.ForecastOutdoorTemp">
+            <summary>
+            预测室外温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.RealOutdoorTemp">
+            <summary>
+            实际室外温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.ForecastSecFlow">
+            <summary>
+            换热站二次侧循环流量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.ForecastFlow">
+            <summary>
+            预测流量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.LoadRate">
+            <summary>
+            负荷率
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.HourlyHeatHour">
+            <summary>
+            小时用热量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.ForecastSecSendTemp">
+            <summary>
+            预测二次供水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.ForecastSecReturnTemp">
+            <summary>
+            预测二次回水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.RealSecSendTemp">
+            <summary>
+            实际二次供水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.RealSecReturnTemp">
+            <summary>
+            实际二次回水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.HeatingType">
+            <summary>
+            采暖方式
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.CreateUser">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.IsValid">
+            <summary>
+            是否有效
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastHistoryHour.StationBranchArrayNumber">
+            <summary>
+            机组号
+            </summary>
+        </member>
+        <member name="T:ApiModel.StationForecastInput">
+            <summary>
+            换热站负荷预测数据输入表（StationForecastInput）
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.Id">
+            <summary>
+            自增Id
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.VpnUserId">
+            <summary>
+            换热站Id
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.StationName">
+            <summary>
+            换热站名称
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.HeatArea">
+            <summary>
+            面积
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.HeatTarget">
+            <summary>
+            面积热指标
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.OverallHeat">
+            <summary>
+            当年实现的热耗
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.SEC_TEMP_S">
+            <summary>
+            二次供水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.SEC_TEMP_R">
+            <summary>
+            二次回水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.SeNetworkRelativeFlow">
+            <summary>
+            二次相对流量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.OutdoorAtPresentOffset">
+            <summary>
+            当前室外温度补偿值
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.AdCoefficient">
+            <summary>
+            调整系数
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.HeatingType">
+            <summary>
+            采暖方式,1地板采暖，2挂片采暖，3混合
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.RadiatingTubeType">
+            <summary>
+            地板采暖散热管间距类型（1：300mm;2：250mm;3：200mm;4：150mm）
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.CreateUser">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.IsValid">
+            <summary>
+            是否有效
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastInput.StationBranchArrayNumber">
+            <summary>
+            机组号
+            </summary>
+        </member>
+        <member name="T:ApiModel.StationForecastRadiatingTube">
+            <summary>
+            换热站地板采暖散热量数据表
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRadiatingTube.Id">
+            <summary>
+            自增
+            </summary>
+            
+        </member>
+        <member name="P:ApiModel.StationForecastRadiatingTube.Avgtemperature">
+            <summary>
+            平均水温
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRadiatingTube.IndoorCalculationTemp">
+            <summary>
+            室内温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRadiatingTube.RadiatingTubeTH">
+            <summary>
+            散热管间距300
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRadiatingTube.RadiatingTubeSHF">
+            <summary>
+            散热管间距250
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRadiatingTube.RadiatingTubeSH">
+            <summary>
+            散热管间距200
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRadiatingTube.RadiatingTubeOHF">
+            <summary>
+            散热管间距150
+            </summary>
+        </member>
+        <member name="T:ApiModel.StationForecastRealDay">
+            <summary>
+            换热站负荷预测实时天表（StationForecastRealDay）
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.Id">
+            <summary>
+            自增Id
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.VpnUserId">
+            <summary>
+            换热站Id
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.StationName">
+            <summary>
+            换热站名称
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.ForecastDateDay">
+            <summary>
+            预测时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.HeatArea">
+            <summary>
+            面积
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.ForecastHeatTarget">
+            <summary>
+            预测热指标
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.RealHeatTarget">
+            <summary>
+            当前热指标
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.FloorSurfaceAvgTemp">
+            <summary>
+            地板表面平均温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.ForecastOutdoorTemp">
+            <summary>
+            预测室外温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.RealOutdoorTemp">
+            <summary>
+            实际室外温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.ForecastSecFlow">
+            <summary>
+            换热站二次侧循环流量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.ForecastFlow">
+            <summary>
+            预测流量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.LoadRate">
+            <summary>
+            负荷率
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.HourlyHeatDay">
+            <summary>
+            日用热量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.ForecastSecSendTemp">
+            <summary>
+            预测二次供水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.ForecastSecReturnTemp">
+            <summary>
+            预测二次回水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.RealSecSendTemp">
+            <summary>
+            实际二次供水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.RealSecReturnTemp">
+            <summary>
+            实际二次回水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.HeatingType">
+            <summary>
+            采暖方式
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.CreateUser">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.IsValid">
+            <summary>
+            是否有效
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealDay.StationBranchArrayNumber">
+            <summary>
+            机组号
+            </summary>
+        </member>
+        <member name="T:ApiModel.StationForecastRealHour">
+            <summary>
+            换热站负荷预测实时小时表（StationForecastRealHour）
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.Id">
+            <summary>
+            自增Id
+            </summary>
+            
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.VpnUserId">
+            <summary>
+            换热站Id
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.StationName">
+            <summary>
+            换热站名称
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.ForecastDateHour">
+            <summary>
+            预测时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.HeatArea">
+            <summary>
+            面积
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.ForecastHeatTarget">
+            <summary>
+            预测热指标
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.RealHeatTarget">
+            <summary>
+            当前热指标
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.FloorSurfaceAvgTemp">
+            <summary>
+            地板表面平均温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.ForecastOutdoorTemp">
+            <summary>
+            预测室外温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.RealOutdoorTemp">
+            <summary>
+            实际室外温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.ForecastSecFlow">
+            <summary>
+            换热站二次侧循环流量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.ForecastFlow">
+            <summary>
+            预测流量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.LoadRate">
+            <summary>
+            负荷率
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.HourlyHeatHour">
+            <summary>
+            小时用热量
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.ForecastSecSendTemp">
+            <summary>
+            预测二次供水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.ForecastSecReturnTemp">
+            <summary>
+            预测二次回水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.RealSecSendTemp">
+            <summary>
+            实际二次供水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.RealSecReturnTemp">
+            <summary>
+            实际二次回水温度
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.HeatingType">
+            <summary>
+            采暖方式
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.CreateUser">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.IsValid">
+            <summary>
+            是否有效
+            </summary>
+        </member>
+        <member name="P:ApiModel.StationForecastRealHour.StationBranchArrayNumber">
+            <summary>
+            机组号
+            </summary>
+        </member>
+        <member name="T:ApiModel.WeatherForecast">
+            <summary>
+             日天气预报
+            </summary>    
+        </member>
+        <member name="P:ApiModel.WeatherForecast.Id">
+            <summary>
+            WeatherForcastID
+            </summary>  
+            
+        </member>
+        <member name="P:ApiModel.WeatherForecast.HighTemperature">
+            <summary>
+            预测最高温度
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.AvgTemperature">
+            <summary>
+            平均温度
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.LowTemperature">
+            <summary>
+            预测最低温度
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.Wind">
+            <summary>
+            风力(0-12级)
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.WindVelocity">
+            <summary>
+            风速
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.WindDirection">
+            <summary>
+            风向(如：东北风)
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.WeatherConditions">
+            <summary>
+            天气状况
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.SnowStatus">
+            <summary>
+            雪况(0-4级)
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.HumiDity">
+            <summary>
+            湿度
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.HeatTemperature">
+            <summary>
+            每日制定的供热气温
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.ForecastHeatTarget">
+            <summary>
+            预测热指标
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.ForecastDateSection">
+            <summary>
+            预测时间段
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.ChangeStatus">
+            <summary>
+            天气改变状态
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.IsForecast">
+            <summary>
+            是否已此记录作为预测值
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.CheckMan">
+            <summary>
+            供热气温制定人
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.CheckDate">
+            <summary>
+            供热气温制定时间
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.NcapTime">
+            <summary>
+            天气预报采集时间
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.ForecastTime">
+            <summary>
+            天气预报预报时间
+            </summary>        
+        </member>
+        <member name="P:ApiModel.WeatherForecast.WeatherType">
+            <summary>
+            天气类型（1：3天；2：7天）
+            </summary>        
+        </member>
+        <member name="P:ApiModel.InCreaseEnergyDto.NowTotal">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:ApiModel.EnergyData.NcapTime">
+            <summary>
+            采集时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.EnergyData.Tick">
+            <summary>
+            时间戳
+            </summary>
+        </member>
+        <member name="P:ApiModel.EnergyData.EnergyToTal">
+            <summary>
+            实际值
+            </summary>
+        </member>
+        <member name="P:ApiModel.EnergyData.EnergyTarget">
+            <summary>
+            单耗
+            </summary>
+        </member>
+        <member name="P:ApiModel.PlanEnergyDto.PlanTotal">
+            <summary>
+            计划总能耗
+            </summary>
+        </member>
+        <member name="P:ApiModel.PlanEnergyDto.PlanTarget">
+            <summary>
+            计划总指标
+            </summary>
+        </member>
+        <member name="P:ApiModel.PlanEnergyDto.NowTotal">
+            <summary>
+            当前总能耗
+            </summary>
+        </member>
+        <member name="P:ApiModel.PlanEnergyDto.NowTarget">
+            <summary>
+            当前总指标
+            </summary>
+        </member>
+        <member name="P:ApiModel.PlanEnergyDto.RatioTotal">
+            <summary>
+            完成能耗比例
+            </summary>
+        </member>
+        <member name="P:ApiModel.PlanEnergyDto.RatioTarget">
+            <summary> 
+            完成指标比例
+            </summary>                                       
+        </member>
+        <member name="P:ApiModel.PlanEnergyDto.ResidueTotal">
+            <summary>
+            剩余能耗
+            </summary>
+        </member>
+        <member name="P:ApiModel.PlanEnergyDto.UseDays">
+            <summary>
+            可用天数
+            </summary>
+        </member>
+        <member name="P:ApiModel.SearchDto.EnergyType">
+            <summary>
+            能耗类型
+            </summary>
+        </member>
+        <member name="P:ApiModel.SearchDto.StartTime">
+            <summary>
+            搜索查询开始采集时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.SearchDto.EndTime">
+            <summary>
+            搜索查询结束采集时间
+            </summary>
+        </member>
+        <member name="P:ApiModel.SearchDto.VpnUserid">
+            <summary>
+            站点VpnUser_id
+            </summary>
+        </member>
+        <member name="P:ApiModel.SearchDto.PowerInfoid">
+            <summary>
+            热源PowerInfoid
+            </summary>
+        </member>
+        <member name="P:ApiModel.SearchDto.Organizationid">
+            <summary>
+            公司id
+            </summary>
+        </member>
+        <member name="P:ApiModel.SearchDto.Page">
+            <summary>
+            当前页标
+            </summary>
+        </member>
+        <member name="P:ApiModel.SearchDto.PageSize">
+            <summary>
+            每页大小
+            </summary>
+        </member>
+        <member name="P:ApiModel.SearchDto.SortName">
+            <summary>
+            排序列名
+            </summary>
+        </member>
+        <member name="P:ApiModel.SearchDto.SortType">
+            <summary>
+            排序类型
+            </summary>
+        </member>
+    </members>
+</doc>

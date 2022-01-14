@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "M:\\TSCC项目\\大庆项目\\大庆xlink\\大庆统一数据平台Svn\\THMS.Core.API.csproj": {}
+  },
+  "projects": {
+    "M:\\TSCC项目\\大庆项目\\大庆xlink\\大庆统一数据平台Svn\\THMS.Core.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "M:\\TSCC项目\\大庆项目\\大庆xlink\\大庆统一数据平台Svn\\THMS.Core.API.csproj",
+        "projectName": "THMS.Core.API",
+        "projectPath": "M:\\TSCC项目\\大庆项目\\大庆xlink\\大庆统一数据平台Svn\\THMS.Core.API.csproj",
+        "packagesPath": "C:\\Users\\51405\\.nuget\\packages\\",
+        "outputPath": "M:\\TSCC项目\\大庆项目\\大庆xlink\\大庆统一数据平台Svn\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\51405\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "CoreFtp": {
+              "target": "Package",
+              "version": "[1.4.0, )"
+            },
+            "Dynamitey": {
+              "target": "Package",
+              "version": "[2.0.10.189, )"
+            },
+            "EPPlus.Core": {
+              "target": "Package",
+              "version": "[1.5.4, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.12, )"
+            },
+            "Hangfire.Core": {
+              "target": "Package",
+              "version": "[1.7.12, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.12, )"
+            },
+            "MessagePack": {
+              "target": "Package",
+              "version": "[1.9.3, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.HttpOverrides": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.4.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "NPinyin.Core": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.0.7, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.4, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.0.601, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.8, )"
+            },
+            "sqlSugarCore": {
+              "target": "Package",
+              "version": "[5.0.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

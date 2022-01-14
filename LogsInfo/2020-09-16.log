@@ -1,0 +1,5 @@
+2020-09-16 10:57:20,736 [71] INFO  InfoLogger - 全局异常过滤器：Sequence contains no elements
+ InfoLoggername2020-09-16 13:52:43,870 [54] INFO  InfoLogger - 全局异常过滤器：Object reference not set to an instance of an object.
+ InfoLoggername2020-09-16 13:53:33,768 [51] INFO  InfoLogger - 全局异常过滤器：An item with the same key has already been added. Key: PRI_PRESS_R
+ InfoLoggername2020-09-16 13:54:01,397 [66] INFO  InfoLogger - 全局异常过滤器：An item with the same key has already been added. Key: PRI_PRESS_R
+ InfoLoggername

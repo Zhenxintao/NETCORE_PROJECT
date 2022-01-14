@@ -1,0 +1,13 @@
+2020-09-01 13:00:04,772 [47] INFO  InfoLogger - Post请求接口失败:The operation has timed out.;记录时间:2020/9/1 13:00:04;
+ InfoLoggername2020-09-01 13:20:03,942 [Worker #3] INFO  InfoLogger - FileData\heatStation_2020090113.txt.txt文件创建成功;创建时间:2020/9/1 13:20:03
+ InfoLoggername2020-09-01 13:20:04,076 [Worker #3] INFO  InfoLogger - FileData\HeatSource_2020090113.txt.txt文件创建成功;创建时间:2020/9/1 13:20:04
+ InfoLoggername2020-09-01 13:20:04,675 [57] INFO  InfoLogger - 换热站能耗文件上传成功！时间为：2020/9/1 13:20:04
+ InfoLoggername2020-09-01 13:20:04,676 [61] INFO  InfoLogger - 热源能耗文件上传成功！时间为：2020/9/1 13:20:04
+ InfoLoggername2020-09-01 13:21:57,559 [58] INFO  InfoLogger - Get请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2020/9/1 13:21:57;
+ InfoLoggername2020-09-01 13:23:16,180 [58] INFO  InfoLogger - Get请求接口成功:{"code":200,"total":0,"message":"操作成功","data":null};记录时间:2020/9/1 13:23:16;
+ InfoLoggername2020-09-01 13:24:25,018 [58] INFO  InfoLogger - Get请求接口成功:true;记录时间:2020/9/1 13:24:25;
+ InfoLoggername2020-09-01 13:24:38,023 [58] INFO  InfoLogger - Get请求接口成功:{"code":200,"total":0,"message":"操作成功","data":null};记录时间:2020/9/1 13:24:38;
+ InfoLoggername2020-09-01 15:33:29,453 [56] INFO  InfoLogger - Put 请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2020/9/1 15:33:29;
+ InfoLoggername2020-09-01 15:37:52,299 [78] INFO  InfoLogger - /api/Organization/UpdateOrgan:Put 请求接口成功:true;记录时间:2020/9/1 15:37:52;
+ InfoLoggername2020-09-01 15:38:33,695 [78] INFO  InfoLogger - http://39.107.233.3:9901/source/api/source/updateHeatfiliale:Post请求接口成功:{"code":200,"total":0,"message":"操作成功","data":null};记录时间:2020/9/1 15:38:33;
+ InfoLoggername

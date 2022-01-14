@@ -1,0 +1,7 @@
+2021-09-03 15:44:21,722 [Worker #2] INFO  InfoLogger - FileData\heatStation_2021090315.txt.txt文件创建成功;创建时间:2021/9/3 15:44:21
+ InfoLoggername2021-09-03 15:44:24,239 [Worker #2] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/9/3 15:44:24
+ InfoLoggername2021-09-03 15:44:24,391 [Worker #2] INFO  InfoLogger - FileData\HeatSource_2021090315.txt.txt文件创建成功;创建时间:2021/9/3 15:44:24
+ InfoLoggername2021-09-03 15:44:26,644 [Worker #2] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/9/3 15:44:26
+ InfoLoggername2021-09-03 15:44:29,069 [Worker #2] INFO  InfoLogger - FileData\temperature_2021090315.txt.txt文件创建成功;创建时间:2021/9/3 15:44:29
+ InfoLoggername2021-09-03 15:44:31,624 [Worker #2] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/9/3 15:44:31
+ InfoLoggername

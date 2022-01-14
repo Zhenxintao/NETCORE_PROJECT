@@ -1,0 +1,16 @@
+2021-07-21 16:48:47,717 [6] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/7/21 16:48:47;
+ InfoLoggername2021-07-21 16:50:20,302 [45] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/7/21 16:50:20;
+ InfoLoggername2021-07-21 16:51:14,202 [48] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/7/21 16:51:14;
+ InfoLoggername2021-07-21 17:02:58,012 [54] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/7/21 17:02:57;
+ InfoLoggername2021-07-21 17:12:13,331 [10] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/7/21 17:12:13;
+ InfoLoggername2021-07-21 17:15:35,123 [7] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/7/21 17:15:35;
+ InfoLoggername2021-07-21 17:16:20,799 [7] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/7/21 17:16:20;
+ InfoLoggername2021-07-21 17:16:34,696 [7] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/7/21 17:16:34;
+ InfoLoggername2021-07-21 17:43:14,247 [43] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/7/21 17:43:14;
+ InfoLoggername2021-07-21 17:47:04,249 [Worker #2] INFO  InfoLogger - FileData\heatStation_2021072117.txt.txt文件创建成功;创建时间:2021/7/21 17:47:04
+ InfoLoggername2021-07-21 17:47:06,544 [Worker #2] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/7/21 17:47:06
+ InfoLoggername2021-07-21 17:47:06,668 [Worker #2] INFO  InfoLogger - FileData\HeatSource_2021072117.txt.txt文件创建成功;创建时间:2021/7/21 17:47:06
+ InfoLoggername2021-07-21 17:47:08,861 [Worker #2] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/7/21 17:47:08
+ InfoLoggername2021-07-21 17:47:10,021 [Worker #2] INFO  InfoLogger - FileData\temperature_2021072117.txt.txt文件创建成功;创建时间:2021/7/21 17:47:10
+ InfoLoggername2021-07-21 17:47:12,214 [Worker #2] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/7/21 17:47:12
+ InfoLoggername

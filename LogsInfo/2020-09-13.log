@@ -1,0 +1,14 @@
+2020-09-13 18:19:08,043 [6] INFO  InfoLogger - 全局异常过滤器：Object reference not set to an instance of an object.
+ InfoLoggername2020-09-13 18:19:23,826 [6] INFO  InfoLogger - 全局异常过滤器：Object reference not set to an instance of an object.
+ InfoLoggername2020-09-13 19:06:14,596 [45] INFO  InfoLogger - 全局异常过滤器：Sequence contains no elements
+ InfoLoggername2020-09-13 19:06:42,778 [45] INFO  InfoLogger - 全局异常过滤器：Sequence contains no elements
+ InfoLoggername2020-09-13 19:13:30,793 [47] INFO  InfoLogger - 全局异常过滤器：Object reference not set to an instance of an object.
+ InfoLoggername2020-09-13 20:11:57,983 [Worker #2] INFO  InfoLogger - FileData\heatStation_2020091320.txt.txt文件创建成功;创建时间:2020/9/13 20:11:57
+ InfoLoggername2020-09-13 20:11:58,353 [Worker #2] INFO  InfoLogger - FileData\HeatSource_2020091320.txt.txt文件创建成功;创建时间:2020/9/13 20:11:58
+ InfoLoggername2020-09-13 20:11:58,605 [48] INFO  InfoLogger - 热源能耗文件上传成功！时间为：2020/9/13 20:11:58
+ InfoLoggername2020-09-13 20:11:58,610 [43] INFO  InfoLogger - 换热站能耗文件上传成功！时间为：2020/9/13 20:11:58
+ InfoLoggername2020-09-13 20:20:05,153 [Worker #2] INFO  InfoLogger - FileData\heatStation_2020091320.txt.txt文件创建成功;创建时间:2020/9/13 20:20:04
+ InfoLoggername2020-09-13 20:20:05,238 [Worker #2] INFO  InfoLogger - FileData\HeatSource_2020091320.txt.txt文件创建成功;创建时间:2020/9/13 20:20:05
+ InfoLoggername2020-09-13 20:20:05,853 [81] INFO  InfoLogger - 换热站能耗文件上传成功！时间为：2020/9/13 20:20:05
+ InfoLoggername2020-09-13 20:20:05,856 [80] INFO  InfoLogger - 热源能耗文件上传成功！时间为：2020/9/13 20:20:05
+ InfoLoggername

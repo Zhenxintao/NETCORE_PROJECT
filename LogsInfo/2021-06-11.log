@@ -1,0 +1,13 @@
+2021-06-11 13:13:47,296 [44] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/6/11 13:13:47;
+ InfoLoggername2021-06-11 13:52:41,959 [44] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/6/11 13:52:41;
+ InfoLoggername2021-06-11 15:47:49,224 [52] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/6/11 15:47:49;
+ InfoLoggername2021-06-11 15:47:58,565 [55] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/6/11 15:47:58;
+ InfoLoggername2021-06-11 15:51:06,096 [7] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/6/11 15:51:05;
+ InfoLoggername2021-06-11 15:52:35,349 [42] INFO  InfoLogger - 全局异常过滤器：Invalid property identifier character: {. Path '[0].assetHeadValue', line 1, position 117.
+ InfoLoggername2021-06-11 15:52:35,476 [42] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/6/11 15:52:35;
+ InfoLoggername2021-06-11 15:52:38,639 [42] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/6/11 15:52:38;
+ InfoLoggername2021-06-11 15:52:52,530 [46] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/6/11 15:52:52;
+ InfoLoggername2021-06-11 15:52:59,276 [50] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/6/11 15:52:59;
+ InfoLoggername2021-06-11 16:03:35,925 [10] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/6/11 16:03:35;
+ InfoLoggername2021-06-11 16:03:40,752 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/6/11 16:03:40;
+ InfoLoggername

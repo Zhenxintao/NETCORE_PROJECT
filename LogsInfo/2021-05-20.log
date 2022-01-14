@@ -1,0 +1,25 @@
+2021-05-20 10:10:09,805 [Worker #1] INFO  InfoLogger - FileData\heatStation_2021052010.txt.txt文件创建成功;创建时间:2021/5/20 10:10:09
+ InfoLoggername2021-05-20 10:10:12,224 [Worker #1] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/5/20 10:10:12
+ InfoLoggername2021-05-20 10:10:12,496 [Worker #1] INFO  InfoLogger - FileData\HeatSource_2021052010.txt.txt文件创建成功;创建时间:2021/5/20 10:10:12
+ InfoLoggername2021-05-20 10:10:14,736 [Worker #1] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/5/20 10:10:14
+ InfoLoggername2021-05-20 10:10:16,095 [Worker #1] INFO  InfoLogger - FileData\temperature_2021052010.txt.txt文件创建成功;创建时间:2021/5/20 10:10:16
+ InfoLoggername2021-05-20 10:10:18,312 [Worker #1] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/5/20 10:10:18
+ InfoLoggername2021-05-20 10:10:58,337 [6] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/5/20 10:10:58;
+ InfoLoggername2021-05-20 10:12:21,737 [44] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/5/20 10:12:21;
+ InfoLoggername2021-05-20 10:14:28,387 [6] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/5/20 10:14:28;
+ InfoLoggername2021-05-20 10:15:31,530 [6] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/5/20 10:15:31;
+ InfoLoggername2021-05-20 13:43:23,595 [6] INFO  InfoLogger - Post请求接口失败:由于目标计算机积极拒绝，无法连接。 由于目标计算机积极拒绝，无法连接。;记录时间:2021/5/20 13:43:23;
+ InfoLoggername2021-05-20 13:58:43,272 [7] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/20 13:58:43;
+ InfoLoggername2021-05-20 14:02:38,400 [59] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/20 14:02:38;
+ InfoLoggername2021-05-20 14:03:00,558 [62] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/20 14:03:00;
+ InfoLoggername2021-05-20 14:03:13,387 [65] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/20 14:03:13;
+ InfoLoggername2021-05-20 14:03:24,728 [67] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/20 14:03:24;
+ InfoLoggername2021-05-20 14:09:05,477 [7] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/20 14:09:05;
+ InfoLoggername2021-05-20 14:09:15,621 [45] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/20 14:09:15;
+ InfoLoggername2021-05-20 14:10:41,068 [6] INFO  InfoLogger - English Message : Connection open error . Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=40732; handshake=9; 
+Chinese Message :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=40732; handshake=9; .
+ InfoLoggername2021-05-20 14:11:03,966 [7] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/20 14:11:03;
+ InfoLoggername2021-05-20 14:14:34,779 [42] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/20 14:14:34;
+ InfoLoggername2021-05-20 14:15:53,930 [42] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/20 14:15:53;
+ InfoLoggername2021-05-20 14:16:42,930 [6] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/20 14:16:42;
+ InfoLoggername

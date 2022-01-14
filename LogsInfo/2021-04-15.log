@@ -1,0 +1,14 @@
+2021-04-15 18:49:04,074 [6] INFO  InfoLogger - 全局异常过滤器：Value cannot be null.
+Parameter name: value
+ InfoLoggername2021-04-15 18:50:28,052 [10] INFO  InfoLogger - 全局异常过滤器：Value cannot be null.
+Parameter name: value
+ InfoLoggername2021-04-15 18:51:03,943 [10] INFO  InfoLogger - 全局异常过滤器：Value cannot be null.
+Parameter name: value
+ InfoLoggername2021-04-15 18:51:23,306 [10] INFO  InfoLogger - 全局异常过滤器：Value cannot be null.
+Parameter name: value
+ InfoLoggername2021-04-15 18:52:22,740 [45] INFO  InfoLogger - 全局异常过滤器：Value cannot be null.
+Parameter name: value
+ InfoLoggername2021-04-15 18:53:08,744 [60] INFO  InfoLogger - 全局异常过滤器：JsonToken EndArray is not valid for closing JsonType Object. Path '', line 1, position 437.
+ InfoLoggername2021-04-15 18:53:28,066 [73] INFO  InfoLogger - 全局异常过滤器：JsonToken EndArray is not valid for closing JsonType Object. Path '', line 1, position 437.
+ InfoLoggername2021-04-15 19:00:01,654 [60] INFO  InfoLogger - 全局异常过滤器：JsonToken EndArray is not valid for closing JsonType Object. Path '', line 1, position 437.
+ InfoLoggername

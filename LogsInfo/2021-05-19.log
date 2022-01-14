@@ -1,0 +1,182 @@
+2021-05-19 09:06:14,518 [Worker #17] INFO  InfoLogger - FileData\heatStation_2021051909.txt.txt文件创建成功;创建时间:2021/5/19 9:06:13
+ InfoLoggername2021-05-19 09:06:17,073 [Worker #17] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/5/19 9:06:17
+ InfoLoggername2021-05-19 09:06:17,346 [Worker #17] INFO  InfoLogger - FileData\HeatSource_2021051909.txt.txt文件创建成功;创建时间:2021/5/19 9:06:17
+ InfoLoggername2021-05-19 09:06:19,721 [Worker #17] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/5/19 9:06:19
+ InfoLoggername2021-05-19 09:06:51,370 [Worker #17] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/5/19 9:06:51
+ InfoLoggername2021-05-19 09:48:10,109 [Worker #11] INFO  InfoLogger - FileData\heatStation_2021051909.txt.txt文件创建成功;创建时间:2021/5/19 9:48:09
+ InfoLoggername2021-05-19 09:48:12,471 [Worker #11] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/5/19 9:48:12
+ InfoLoggername2021-05-19 09:48:12,740 [Worker #11] INFO  InfoLogger - FileData\HeatSource_2021051909.txt.txt文件创建成功;创建时间:2021/5/19 9:48:12
+ InfoLoggername2021-05-19 09:48:14,953 [Worker #11] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/5/19 9:48:14
+ InfoLoggername2021-05-19 09:48:32,480 [Worker #11] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/5/19 9:48:32
+ InfoLoggername2021-05-19 10:47:08,207 [Worker #8] INFO  InfoLogger - FileData\heatStation_2021051910.txt.txt文件创建成功;创建时间:2021/5/19 10:47:08
+ InfoLoggername2021-05-19 10:47:10,477 [Worker #8] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/5/19 10:47:10
+ InfoLoggername2021-05-19 10:47:10,743 [Worker #8] INFO  InfoLogger - FileData\HeatSource_2021051910.txt.txt文件创建成功;创建时间:2021/5/19 10:47:10
+ InfoLoggername2021-05-19 10:47:12,948 [Worker #8] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/5/19 10:47:12
+ InfoLoggername2021-05-19 10:47:30,394 [Worker #8] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/5/19 10:47:30
+ InfoLoggername2021-05-19 11:47:09,817 [Worker #7] INFO  InfoLogger - FileData\heatStation_2021051911.txt.txt文件创建成功;创建时间:2021/5/19 11:47:09
+ InfoLoggername2021-05-19 11:47:12,057 [Worker #7] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/5/19 11:47:12
+ InfoLoggername2021-05-19 11:47:12,321 [Worker #7] INFO  InfoLogger - FileData\HeatSource_2021051911.txt.txt文件创建成功;创建时间:2021/5/19 11:47:12
+ InfoLoggername2021-05-19 11:47:14,693 [Worker #7] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/5/19 11:47:14
+ InfoLoggername2021-05-19 11:47:32,199 [Worker #7] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/5/19 11:47:32
+ InfoLoggername2021-05-19 12:47:01,997 [Worker #9] INFO  InfoLogger - FileData\heatStation_2021051912.txt.txt文件创建成功;创建时间:2021/5/19 12:47:01
+ InfoLoggername2021-05-19 12:47:04,343 [Worker #9] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/5/19 12:47:04
+ InfoLoggername2021-05-19 12:47:04,596 [Worker #9] INFO  InfoLogger - FileData\HeatSource_2021051912.txt.txt文件创建成功;创建时间:2021/5/19 12:47:04
+ InfoLoggername2021-05-19 12:47:06,818 [Worker #9] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/5/19 12:47:06
+ InfoLoggername2021-05-19 12:47:24,123 [Worker #9] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/5/19 12:47:24
+ InfoLoggername2021-05-19 13:25:14,621 [50] INFO  InfoLogger - 全局异常过滤器：JsonToken EndArray is not valid for closing JsonType None. Path '', line 1, position 1.
+ InfoLoggername2021-05-19 13:47:11,179 [Worker #20] INFO  InfoLogger - FileData\heatStation_2021051913.txt.txt文件创建成功;创建时间:2021/5/19 13:47:11
+ InfoLoggername2021-05-19 13:47:13,370 [Worker #20] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/5/19 13:47:13
+ InfoLoggername2021-05-19 13:47:13,638 [Worker #20] INFO  InfoLogger - FileData\HeatSource_2021051913.txt.txt文件创建成功;创建时间:2021/5/19 13:47:13
+ InfoLoggername2021-05-19 13:47:15,839 [Worker #20] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/5/19 13:47:15
+ InfoLoggername2021-05-19 13:47:33,056 [Worker #20] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/5/19 13:47:33
+ InfoLoggername2021-05-19 13:55:45,945 [70] INFO  InfoLogger - 全局异常过滤器：JsonToken EndArray is not valid for closing JsonType None. Path '', line 1, position 1.
+ InfoLoggername2021-05-19 13:56:07,145 [74] INFO  InfoLogger - 全局异常过滤器：JsonToken EndArray is not valid for closing JsonType None. Path '', line 1, position 1.
+ InfoLoggername2021-05-19 13:56:59,167 [81] INFO  InfoLogger - 全局异常过滤器：JsonToken EndArray is not valid for closing JsonType None. Path '', line 1, position 1.
+ InfoLoggername2021-05-19 14:47:12,738 [Worker #4] INFO  InfoLogger - FileData\heatStation_2021051914.txt.txt文件创建成功;创建时间:2021/5/19 14:47:12
+ InfoLoggername2021-05-19 14:47:15,082 [Worker #4] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/5/19 14:47:15
+ InfoLoggername2021-05-19 14:47:15,353 [Worker #4] INFO  InfoLogger - FileData\HeatSource_2021051914.txt.txt文件创建成功;创建时间:2021/5/19 14:47:15
+ InfoLoggername2021-05-19 14:47:17,585 [Worker #4] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/5/19 14:47:17
+ InfoLoggername2021-05-19 14:47:34,948 [Worker #4] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/5/19 14:47:34
+ InfoLoggername2021-05-19 15:02:13,498 [6] INFO  InfoLogger - Post请求接口失败:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。;记录时间:2021/5/19 15:02:13;
+ InfoLoggername2021-05-19 15:04:11,103 [6] INFO  InfoLogger - Post请求接口失败:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。;记录时间:2021/5/19 15:04:11;
+ InfoLoggername2021-05-19 15:21:46,872 [44] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:21:46;
+ InfoLoggername2021-05-19 15:24:55,153 [41] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:24:54;
+ InfoLoggername2021-05-19 15:25:06,530 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:25:06;
+ InfoLoggername2021-05-19 15:26:20,032 [42] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:26:20;
+ InfoLoggername2021-05-19 15:27:29,882 [40] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:27:29;
+ InfoLoggername2021-05-19 15:27:36,637 [41] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:27:36;
+ InfoLoggername2021-05-19 15:27:38,443 [47] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:27:38;
+ InfoLoggername2021-05-19 15:27:38,807 [48] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:27:38;
+ InfoLoggername2021-05-19 15:27:39,064 [48] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:27:39;
+ InfoLoggername2021-05-19 15:27:39,236 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:27:39;
+ InfoLoggername2021-05-19 15:29:02,380 [48] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:29:02;
+ InfoLoggername2021-05-19 15:29:05,891 [41] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:29:05;
+ InfoLoggername2021-05-19 15:29:44,818 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:29:44;
+ InfoLoggername2021-05-19 15:29:51,804 [49] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:29:51;
+ InfoLoggername2021-05-19 15:29:53,067 [41] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:29:53;
+ InfoLoggername2021-05-19 15:29:57,020 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:29:57;
+ InfoLoggername2021-05-19 15:29:58,451 [10] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:29:58;
+ InfoLoggername2021-05-19 15:29:58,630 [7] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:29:58;
+ InfoLoggername2021-05-19 15:29:59,184 [7] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:29:59;
+ InfoLoggername2021-05-19 15:29:59,745 [47] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:29:59;
+ InfoLoggername2021-05-19 15:29:59,931 [6] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:29:59;
+ InfoLoggername2021-05-19 15:30:00,222 [6] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:30:00;
+ InfoLoggername2021-05-19 15:30:00,320 [6] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:30:00;
+ InfoLoggername2021-05-19 15:30:00,588 [40] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:30:00;
+ InfoLoggername2021-05-19 15:30:00,709 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:30:00;
+ InfoLoggername2021-05-19 15:30:01,158 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:30:01;
+ InfoLoggername2021-05-19 15:30:01,568 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:30:01;
+ InfoLoggername2021-05-19 15:30:02,003 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:30:02;
+ InfoLoggername2021-05-19 15:34:22,080 [56] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:34:22;
+ InfoLoggername2021-05-19 15:34:32,758 [47] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:34:32;
+ InfoLoggername2021-05-19 15:34:55,457 [61] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:34:55;
+ InfoLoggername2021-05-19 15:35:24,912 [40] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:35:24;
+ InfoLoggername2021-05-19 15:37:01,237 [49] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:37:01;
+ InfoLoggername2021-05-19 15:37:07,393 [56] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:37:07;
+ InfoLoggername2021-05-19 15:39:09,131 [61] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:39:09;
+ InfoLoggername2021-05-19 15:39:38,623 [10] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:39:38;
+ InfoLoggername2021-05-19 15:40:38,816 [6] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:40:38;
+ InfoLoggername2021-05-19 15:41:30,497 [10] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:41:30;
+ InfoLoggername2021-05-19 15:44:29,094 [40] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:44:29;
+ InfoLoggername2021-05-19 15:47:09,633 [Worker #2] INFO  InfoLogger - FileData\heatStation_2021051915.txt.txt文件创建成功;创建时间:2021/5/19 15:47:09
+ InfoLoggername2021-05-19 15:47:13,389 [Worker #2] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/5/19 15:47:13
+ InfoLoggername2021-05-19 15:47:13,663 [Worker #2] INFO  InfoLogger - FileData\HeatSource_2021051915.txt.txt文件创建成功;创建时间:2021/5/19 15:47:13
+ InfoLoggername2021-05-19 15:47:15,873 [Worker #2] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/5/19 15:47:15
+ InfoLoggername2021-05-19 15:47:33,328 [Worker #2] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/5/19 15:47:33
+ InfoLoggername2021-05-19 15:50:20,590 [6] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:50:20;
+ InfoLoggername2021-05-19 15:50:23,400 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:50:23;
+ InfoLoggername2021-05-19 15:50:25,943 [6] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 15:50:25;
+ InfoLoggername2021-05-19 16:07:06,880 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:07:06;
+ InfoLoggername2021-05-19 16:07:07,720 [10] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:07:07;
+ InfoLoggername2021-05-19 16:11:05,459 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:11:05;
+ InfoLoggername2021-05-19 16:11:06,631 [6] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:11:06;
+ InfoLoggername2021-05-19 16:11:07,153 [40] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:11:07;
+ InfoLoggername2021-05-19 16:11:15,540 [40] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:11:15;
+ InfoLoggername2021-05-19 16:11:16,668 [9] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:11:16;
+ InfoLoggername2021-05-19 16:39:10,590 [51] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:10;
+ InfoLoggername2021-05-19 16:39:37,972 [65] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:37;
+ InfoLoggername2021-05-19 16:39:39,226 [65] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:39;
+ InfoLoggername2021-05-19 16:39:40,080 [66] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:40;
+ InfoLoggername2021-05-19 16:39:40,350 [51] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:40;
+ InfoLoggername2021-05-19 16:39:41,127 [51] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:41;
+ InfoLoggername2021-05-19 16:39:41,486 [51] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:41;
+ InfoLoggername2021-05-19 16:39:45,602 [65] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:45;
+ InfoLoggername2021-05-19 16:39:45,752 [65] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:45;
+ InfoLoggername2021-05-19 16:39:46,274 [66] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:46;
+ InfoLoggername2021-05-19 16:39:46,524 [51] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:46;
+ InfoLoggername2021-05-19 16:39:46,671 [51] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:46;
+ InfoLoggername2021-05-19 16:39:47,407 [66] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:47;
+ InfoLoggername2021-05-19 16:39:49,168 [65] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:49;
+ InfoLoggername2021-05-19 16:39:50,079 [66] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:50;
+ InfoLoggername2021-05-19 16:39:50,358 [51] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:50;
+ InfoLoggername2021-05-19 16:39:50,561 [65] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:50;
+ InfoLoggername2021-05-19 16:39:51,028 [66] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:39:51;
+ InfoLoggername2021-05-19 16:45:02,354 [46] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:45:02;
+ InfoLoggername2021-05-19 16:45:02,427 [46] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:45:02;
+ InfoLoggername2021-05-19 16:45:04,566 [43] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:45:04;
+ InfoLoggername2021-05-19 16:45:05,422 [57] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:45:05;
+ InfoLoggername2021-05-19 16:45:13,036 [46] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:45:13;
+ InfoLoggername2021-05-19 16:45:13,463 [57] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:45:13;
+ InfoLoggername2021-05-19 16:46:21,879 [54] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:46:21;
+ InfoLoggername2021-05-19 16:46:26,716 [46] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:46:26;
+ InfoLoggername2021-05-19 16:46:28,700 [65] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:46:28;
+ InfoLoggername2021-05-19 16:47:13,374 [Worker #4] INFO  InfoLogger - FileData\heatStation_2021051916.txt.txt文件创建成功;创建时间:2021/5/19 16:47:13
+ InfoLoggername2021-05-19 16:47:15,682 [Worker #4] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/5/19 16:47:15
+ InfoLoggername2021-05-19 16:47:15,944 [Worker #4] INFO  InfoLogger - FileData\HeatSource_2021051916.txt.txt文件创建成功;创建时间:2021/5/19 16:47:15
+ InfoLoggername2021-05-19 16:47:18,212 [Worker #4] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/5/19 16:47:18
+ InfoLoggername2021-05-19 16:47:20,016 [Worker #4] INFO  InfoLogger - FileData\temperature_2021051916.txt.txt文件创建成功;创建时间:2021/5/19 16:47:20
+ InfoLoggername2021-05-19 16:47:22,197 [Worker #4] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/5/19 16:47:22
+ InfoLoggername2021-05-19 16:59:16,267 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:16;
+ InfoLoggername2021-05-19 16:59:17,166 [134] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:17;
+ InfoLoggername2021-05-19 16:59:17,814 [136] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:17;
+ InfoLoggername2021-05-19 16:59:18,345 [135] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:18;
+ InfoLoggername2021-05-19 16:59:18,924 [136] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:18;
+ InfoLoggername2021-05-19 16:59:19,294 [136] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:19;
+ InfoLoggername2021-05-19 16:59:19,644 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:19;
+ InfoLoggername2021-05-19 16:59:19,963 [136] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:19;
+ InfoLoggername2021-05-19 16:59:20,278 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:20;
+ InfoLoggername2021-05-19 16:59:20,551 [135] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:20;
+ InfoLoggername2021-05-19 16:59:20,870 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:20;
+ InfoLoggername2021-05-19 16:59:26,967 [134] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:26;
+ InfoLoggername2021-05-19 16:59:27,340 [134] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:27;
+ InfoLoggername2021-05-19 16:59:27,634 [135] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:27;
+ InfoLoggername2021-05-19 16:59:27,907 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:27;
+ InfoLoggername2021-05-19 16:59:28,964 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:28;
+ InfoLoggername2021-05-19 16:59:29,467 [134] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:29;
+ InfoLoggername2021-05-19 16:59:30,009 [134] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:30;
+ InfoLoggername2021-05-19 16:59:30,416 [136] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 16:59:30;
+ InfoLoggername2021-05-19 17:00:07,969 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:00:07;
+ InfoLoggername2021-05-19 17:00:14,817 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:00:14;
+ InfoLoggername2021-05-19 17:00:15,684 [138] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:00:15;
+ InfoLoggername2021-05-19 17:00:21,322 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:00:21;
+ InfoLoggername2021-05-19 17:00:26,292 [138] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:00:26;
+ InfoLoggername2021-05-19 17:00:26,803 [139] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:00:26;
+ InfoLoggername2021-05-19 17:00:30,508 [138] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:00:30;
+ InfoLoggername2021-05-19 17:00:42,811 [138] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:00:42;
+ InfoLoggername2021-05-19 17:00:56,594 [141] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:00:56;
+ InfoLoggername2021-05-19 17:00:59,548 [141] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:00:59;
+ InfoLoggername2021-05-19 17:01:00,853 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:01:00;
+ InfoLoggername2021-05-19 17:01:01,764 [138] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:01:01;
+ InfoLoggername2021-05-19 17:01:03,077 [141] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:01:03;
+ InfoLoggername2021-05-19 17:01:04,457 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:01:04;
+ InfoLoggername2021-05-19 17:01:07,742 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:01:07;
+ InfoLoggername2021-05-19 17:47:05,038 [Worker #3] INFO  InfoLogger - FileData\heatStation_2021051917.txt.txt文件创建成功;创建时间:2021/5/19 17:47:04
+ InfoLoggername2021-05-19 17:47:07,278 [Worker #3] INFO  InfoLogger - 换热站能耗文件上传失败！时间为：2021/5/19 17:47:07
+ InfoLoggername2021-05-19 17:47:07,554 [Worker #3] INFO  InfoLogger - FileData\HeatSource_2021051917.txt.txt文件创建成功;创建时间:2021/5/19 17:47:07
+ InfoLoggername2021-05-19 17:47:09,744 [Worker #3] INFO  InfoLogger - 热源能耗文件上传失败！时间为：2021/5/19 17:47:09
+ InfoLoggername2021-05-19 17:47:11,428 [Worker #3] INFO  InfoLogger - FileData\temperature_2021051917.txt.txt文件创建成功;创建时间:2021/5/19 17:47:11
+ InfoLoggername2021-05-19 17:47:13,622 [Worker #3] INFO  InfoLogger - 室温实时数据文件上传失败！时间为：2021/5/19 17:47:13
+ InfoLoggername2021-05-19 17:54:47,634 [51] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:54:47;
+ InfoLoggername2021-05-19 17:54:47,634 [44] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:54:47;
+ InfoLoggername2021-05-19 17:59:54,870 [131] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 17:59:54;
+ InfoLoggername2021-05-19 18:00:52,696 [138] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 18:00:52;
+ InfoLoggername2021-05-19 18:01:11,671 [133] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 18:01:11;
+ InfoLoggername2021-05-19 18:06:49,623 [174] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 18:06:49;
+ InfoLoggername2021-05-19 18:07:12,547 [165] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 18:07:12;
+ InfoLoggername2021-05-19 18:09:07,415 [188] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 18:09:07;
+ InfoLoggername2021-05-19 18:09:37,787 [183] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 18:09:37;
+ InfoLoggername2021-05-19 18:09:43,043 [180] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 18:09:43;
+ InfoLoggername2021-05-19 18:11:39,732 [148] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 18:11:39;
+ InfoLoggername2021-05-19 18:23:21,995 [45] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 18:23:21;
+ InfoLoggername2021-05-19 18:32:56,229 [76] INFO  InfoLogger - /api/Uniformed/SendAllInfo:Post请求接口成功:;记录时间:2021/5/19 18:32:56;
+ InfoLoggername

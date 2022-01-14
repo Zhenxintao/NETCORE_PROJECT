@@ -1,0 +1,5 @@
+2020-09-02 13:57:59,637 [6] INFO  InfoLogger - http://39.107.233.3:9901/source/api/source/updateHeatfiliale:Post请求接口成功:{"code":200,"total":0,"message":"操作成功","data":null};记录时间:2020/9/2 13:57:59;
+ InfoLoggername2020-09-02 14:03:16,989 [6] INFO  InfoLogger - http://39.107.233.3:9901/source/api/source/updateHeatfiliale:Post请求接口成功:{"code":200,"total":0,"message":"操作成功","data":null};记录时间:2020/9/2 14:03:16;
+ InfoLoggername2020-09-02 21:40:27,774 [46] INFO  InfoLogger - 全局异常过滤器：列名 'GYTTagShow' 无效。
+ InfoLoggername2020-09-02 21:40:45,130 [59] INFO  InfoLogger - 全局异常过滤器：Sequence contains no elements
+ InfoLoggername
